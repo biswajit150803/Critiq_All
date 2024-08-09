@@ -1,0 +1,92 @@
+.footout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+.footout h1 {
+  background: var(--gradient-text2);
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  width: 80%;
+  text-align: center;
+}
+.footin h4 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: rgb(137, 139, 139);
+  font-size: 1rem;
+}
+.footdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 8vh;
+}
+.footin {
+  width: 60%;
+  color: aliceblue;
+}
+ol {
+  list-style-type: none;
+}
+.footin h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+.footin p {
+  font-size: 0.9rem;
+  color: azure;
+  margin-top: 2vh;
+}
+.footlink {
+  color: rgb(137, 139, 139) !important;
+  text-decoration: none;
+}
+.footlink:hover {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+.footbottom h2 {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: rgb(137, 139, 139);
+  margin-top: 4vh;
+}
+
+@media screen and (max-width: 768px) {
+  .footdown {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footin {
+    width: 80%;
+    margin-top: 5vh;
+  }
+  .footin {
+    text-align: center;
+  }
+  .footin h2 {
+    font-size: 1.2rem;
+  }
+  .footout h1 {
+    font-size: 1.5rem;
+  }
+  .footbottom h2 {
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+  }
+  .footbottom {
+    display: flex;
+    justify-content: center;
+  }
+}
